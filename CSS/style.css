@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+.container {
+    height: 33vh;
+    width: 33vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 12px solid white;
+    background-color: sandybrown;
+}
+
+.title{
+    display: flex;
+    height: 40%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+.body{
+    display: flex;
+    height: 60%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: violet;
+}
+
+button {
+    height: 36px;
+    width: 50px;
+}
